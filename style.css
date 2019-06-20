@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+
+*{
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* main */
+
+@media (max-width: 800px) { /* мобильная */
+  .vdrimg{
+    height: auto;
+    width: 90px;
+  }
+  h2{
+      font-size: 30px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+  }
+  .name{
+    font-size: 40px;
+  }
+  .phrase{
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 800px) { /* комп */
+  .vdrimg{
+    height: auto;
+    width: 300px;
+  }
+  h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  .name{
+    font-size: 50px;
+  }
+  .phrase{
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 900px) {
+  .vdrimg{
+    height: auto;
+    width: 250px;
+  }
+  .vdr{
+    height: auto !important;
+  }
+}
+
+.welcome{
+  height: 100vh;
+  width: 100%;
+  background: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name{
+  margin-bottom: 30px;
+}
+
+.phrase{
+  letter-spacing: 2px;
+  font-weight: 800;
+}
+
+.arrowdown{
+  height: 40px;
+  width: 60px;
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 30px);
+  right: calc(50% - 20px);
+  cursor: pointer;
+}
+
+.phone{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+/* main */
+/* VDR */
+
+.vdr{
+  height: 100vh;
+  width: 100%;
+  background: powderblue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vdrcontainer{
+  padding: 12px;
+  display: inline-block;
+}
+
+.vdrcontainermain{
+  text-align: center;
+}
+
+
+/* VDR */
